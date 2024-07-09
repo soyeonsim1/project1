@@ -1,0 +1,47 @@
+
+.chat-window {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.message {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+}
+
+.message.user {
+    text-align: right;
+    background-color: #dcf8c6;
+}
+
+.message.ai {
+    text-align: left;
+    background-color: #f0f0f0;
+}
+
+#chat-input {
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 70%;
+}
+
+#export-button {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+#enter {
+    font-size: 21px;
+    width: 50px;
+}
+
+button {
+ font-size: 21px;
+ margin-left: 10px;
+}
